@@ -8,7 +8,7 @@
 | Name | Student ID |
 |-----|-----------|
 | Hossam Khalifa | 40199572 |
-| Kevin Kerr |  |
+| Kevin Kerr | 40281044  |
 | Nicolas Landry | 40263725 |
 | Rania Maoukout | 40249281 |
 | Malak Sefrioui |  |
