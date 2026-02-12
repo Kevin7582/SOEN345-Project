@@ -1,9 +1,7 @@
 # SOEN345-Project
 
-# SOEN 390 W26 Project
-
 ## Team Name
-**X Y AND THE OTHER**
+**Test Me ...**
 
 ## Team Members
 
