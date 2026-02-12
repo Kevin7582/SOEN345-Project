@@ -9,7 +9,7 @@
 |-----|-----------|
 | Hossam Khalifa | 40199572 |
 | Kevin Kerr |  |
-| Nicolas Landry |  |
+| Nicolas Landry | 40263725 |
 | Rania Maoukout | 40249281 |
 | Malak Sefrioui |  |
 
