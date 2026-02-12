@@ -37,6 +37,7 @@ Current technology stack proposed:
 - Business Logic: Java
 - Database: MongoDB
 - Spring Boot / Node.js API : to interact with MongoDB
+- Testing: Junit 5
 
 ## Setup Instructions
 
