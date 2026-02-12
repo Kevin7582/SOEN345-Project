@@ -26,7 +26,7 @@ The system provides clear access to events organized in different locations and 
 - Users will be able to easily sort, search, and filter through all the events available to find those most suited to them.
 
 ### Event Hosting
-- Organizers will be able to create events on the website so that they reach our user base and advertise their events to them. 
+- Organizers will be able to create events on the site so that they reach our user base and advertise their events to them. 
 
 
 ## Technologies
