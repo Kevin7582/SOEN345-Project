@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Summ"
+rootProject.name = "EventHostingApp"
 include(":app")
+ 
