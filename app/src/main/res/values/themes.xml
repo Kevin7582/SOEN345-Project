@@ -1,9 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.EventHostingApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.PopIn" parent="Theme.Material3.DayNight.NoActionBar">
     </style>
 
-    <style name="Theme.EventHostingApp" parent="Base.Theme.EventHostingApp" />
+    <style name="Theme.PopIn.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.PopIn</item>
+    </style>
+
+
 </resources>

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EventHostingApp"
+rootProject.name = "PopIn"
 include(":app")
  

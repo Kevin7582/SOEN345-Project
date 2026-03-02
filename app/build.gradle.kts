@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.eventhostingapp"
+    namespace = "com.example.popin"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.eventhostingapp"
+        applicationId = "com.example.popin"
         minSdk = 25
         targetSdk = 36
         versionCode = 1
@@ -38,6 +38,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation("androidx.core:core-splashscreen:1.2.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

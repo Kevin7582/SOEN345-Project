@@ -1,4 +1,4 @@
-package com.example.eventhostingapp;
+package com.example.popin;
 
 import org.junit.Test;
 
