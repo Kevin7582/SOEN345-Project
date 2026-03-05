@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">PopIn</string>
+    <string name="logoDescription">logo</string>
+
+    <string name="loginTitle">Login</string>
+    <string name="loginCatchyPhrase">PopIn, and Join our Events!</string>
+    <string name="loginButton">Let\'s Go! =></string>
+
+    <string name="emailInputHint">Email or Phone Number</string>
+    <string name="passwordInputHint">Password</string>
+
+    <string name="signUpButton">Don\'t have an account? Sign Up</string>
+
 </resources>
