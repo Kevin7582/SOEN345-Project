@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button viewEventButton = findViewById(R.id.btnViewEvent);
-        viewEventButton.setOnClickListener(v ->
-                startActivity(new Intent(MainActivity.this, ViewEventActivity.class))
+        Button viewEventsButton = findViewById(R.id.btnViewEvents);
+        viewEventsButton.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ViewEventsActivity.class))
         );
     }
 }
