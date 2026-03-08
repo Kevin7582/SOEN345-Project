@@ -130,6 +130,8 @@
         android:textColor="?attr/colorOnBackground"
         app:cornerRadius="16dp"
 
+        android:onClick="Login"
+
         app:layout_constraintEnd_toEndOf="@+id/loginTitle"
 
         app:layout_constraintHorizontal_bias="0.529"

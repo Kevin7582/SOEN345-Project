@@ -11,4 +11,6 @@
 
     <string name="signUpButton">Don\'t have an account? Sign Up</string>
 
+    <string name="EventsTitle">Events</string>
+
 </resources>
