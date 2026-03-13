@@ -2,12 +2,21 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/eventsMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EventsPageActivity"
-    tools:theme="@style/Base.Theme.PopIn"
-    >
+    tools:theme="@style/Base.Theme.PopIn">
+
+    <include
+        android:id="@+id/bottomNav"
+        layout="@layout/common_nav_bar"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 
     <TextView
         android:id="@+id/EventsTitle"

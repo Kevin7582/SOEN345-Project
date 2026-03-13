@@ -13,4 +13,13 @@
 
     <string name="EventsTitle">Events</string>
 
+    <string name="navBarComponent1ContentDescription">Explore Events icon</string>
+    <string name="navBarComponent2ContentDescription">User Tickets icon</string>
+    <string name="navBarComponent3ContentDescription">Profile icon</string>
+
+    <string name="navBarComponent1ViewText">Explore Events</string>
+    <string name="navBarComponent2ViewText">My Tickets</string>
+    <string name="navBarComponent3ViewText">My Profile</string>
+
+
 </resources>

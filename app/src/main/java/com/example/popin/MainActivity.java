@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-
-
     public void Login(View view) {
 
         TextInputEditText emailInputField = findViewById(R.id.EmailInput);
