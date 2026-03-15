@@ -1,8 +1,10 @@
 package com.example.popin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
@@ -33,6 +35,12 @@ public class EventsPageActivity extends AppCompatActivity {
 
         EventAdapter eventAdapter = new EventAdapter(events);
         recyclerView.setAdapter(eventAdapter);
+
+        View ticketsContainer = findViewById(R.id.bottomNav).findViewById(R.id.nav_tickets_container);
+        ticketsContainer.setOnClickListener(v -> {
+            Intent intent = new Intent(EventsPageActivity.this, MyTicketsActivity.class);
+            startActivity(intent);
+        });
 
         EditText searchInput = findViewById(R.id.etSearchEvents);
         searchInput.addTextChangedListener(new TextWatcher() {
